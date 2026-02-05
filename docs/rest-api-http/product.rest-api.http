@@ -1,0 +1,41 @@
+### GET product
+// @no-log
+GET {{url}}/product/2
+Accept: application/json
+Authorization: Bearer {{accessToken}}
+
+### GET product
+// @no-log
+GET {{url}}/product
+Accept: application/json
+Authorization: Bearer {{accessToken}}
+
+### POST product
+// @no-log
+POST {{url}}/product
+Authorization: Bearer {{accessToken}}
+Accept: application/json
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "number": "a1b2",
+    "title": "Moby-Dick",
+    "description": "Book about fish."
+}
+
+### PUT product
+// @no-log
+PUT {{url}}/product/1
+Authorization: Bearer {{accessToken}}
+Accept: application/json
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "number": "a1b2",
+    "title": "Moby-Dick",
+    "description": "Book about fish."
+}
+
+

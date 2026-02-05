@@ -1,0 +1,6 @@
+### GET product
+// @no-log
+GET {{url}}/public-product
+Accept: application/json
+
+

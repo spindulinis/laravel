@@ -1,0 +1,36 @@
+### GET user
+// @no-log
+GET {{url}}/user/1
+Accept: application/json
+Authorization: Bearer {{accessToken}}
+
+### GET user
+// @no-log
+GET {{url}}/user
+Accept: application/json
+Authorization: Bearer {{accessToken}}
+
+### POST user
+// @no-log
+POST {{url}}/user
+Authorization: Bearer {{accessToken}}
+Accept: application/json
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe"
+}
+
+### PUT user
+// @no-log
+PUT {{url}}/user/1
+Authorization: Bearer {{accessToken}}
+Accept: application/json
+Content-Type: application/json
+
+{
+    "firstName": "Mark",
+    "lastName": "Stone"
+}
+

@@ -1,0 +1,23 @@
+### POST authentication/sign-up
+// @no-log
+POST {{url}}/authentication/sign-up
+Content-Type: application/json
+Accept: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john@doe.com",
+    "password": "s3cr3t"
+}
+
+### POST authentication/sign-in
+// @no-log
+POST {{url}}/authentication/sign-in
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "john@doe.com",
+    "password": "s3cr3t"
+}
