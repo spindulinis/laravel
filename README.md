@@ -8,6 +8,8 @@ Entities:
 - Category
 - Attribute
 
+This should work with [spindulinis/remix](https://github.com/spindulinis/remix) frontend.
+
 ## Quick start
 
 1. `npm i`
